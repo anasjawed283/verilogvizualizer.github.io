@@ -1,0 +1,14 @@
+digraph {
+	A [label="State A
+Output: 0" shape=ellipse]
+	B [label="State B
+Output: 0" shape=ellipse]
+	C [label="State C
+Output: 1" shape=ellipse]
+	A -> A [label="X=0"]
+	A -> B [label="X=1"]
+	B -> B [label="X=1"]
+	B -> C [label="X=0"]
+	C -> A [label="X=1"]
+	C -> A [label="X=0"]
+}
