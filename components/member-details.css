@@ -1,0 +1,22 @@
+.member-details-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.member-details-image {
+  width: 100px;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.member-details-text {
+  color: var(--dl-color-secondary-100);
+  text-align: center;
+  padding-top: var(--dl-space-space-unitandhalf);
+}
+.member-details-text1 {
+  color: var(--dl-color-secondary-700);
+  text-align: center;
+  text-transform: uppercase;
+}

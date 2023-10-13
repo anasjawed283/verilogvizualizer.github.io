@@ -1,0 +1,14 @@
+.counter-container {
+  flex: 0 0 auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  flex-direction: column;
+}
+.counter-text {
+  color: var(--dl-color-secondary-400);
+  font-weight: 600;
+}
+.counter-text1 {
+  color: var(--dl-color-secondary-500);
+}
