@@ -1,0 +1,39 @@
+import graphviz
+
+# Read the Verilog code from the file
+with open('verilog_code.v', 'r') as file:
+    verilog_code = file.read()
+
+# Rest of the code remains the same...
+# (Your existing code for parsing the Verilog code and creating the state diagram)
+
+# Extract states and transitions from parsed Verilog code
+states = []
+transitions = []
+
+lines = verilog_code.splitlines()
+for line in lines:
+    line = line.strip()
+    if line.startswith("reg") or line.startswith("wire"):
+        state_name = line.split()[2].rstrip(";")
+        states.append(state_name)
+    elif "<=" in line:
+        lhs, rhs = line.split("<=")
+        lhs = lhs.strip()
+        rhs = rhs.strip(";").strip()
+        transitions.append((lhs, rhs))
+
+# Create a Directed Graph (Digraph)
+G = graphviz.Digraph('finite_state_machine', filename='state_diagram.gv')
+G.attr(rankdir='LR', size='8,5')
+
+# Add nodes (states) to the graph
+for state in states:
+    G.node(state)
+
+# Add edges (transitions) to the graph
+for transition in transitions:
+    G.edge(*transition)
+
+# Save the state diagram to a file and view it
+G.render(view=True)
