@@ -2,7 +2,7 @@
         <h1 align="center">Documentation</h1>
 </div>
 
-![Alt Text](https://github.com/anasjawed283/verilogvizualizer.github.io/blob/main/readmeimg.png)
+![landing section of the website](https://github.com/anasjawed283/verilogvizualizer.github.io/blob/main/readmeimg.png)
 
 <h2><b>Software Requirements Specification for Verilog to state Diagram Converter Web Application</b></h2>
 <!--------------------------------------->
