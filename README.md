@@ -47,12 +47,41 @@
 ☐ 2.7	Assumptions and Dependencies
 >The application assumes that users will provide valid Verilog code.
 
-System Features
-☐
-1.	Verilog Parsing
-☐
-2.	State Machine Identification
-☐
+<h2> 3. System Features</h2>
+
+☐ 3.1	Verilog Parsing
+> ☐ 3.1.1	Description
+>>The application will parse Verilog code to extract module definitions, signals, state machines, and state transition logic.
+
+> ☐ 3.1.2	Priority
+>>High
+
+>☐ 3.1.3	Pre-Conditions
+>> Valid Verilog code is provided as input.
+
+>☐ 3.1.4	Post-Conditions
+>> Parsed Verilog data is available for further processing.
+
+>☐ 3.1.5	Functional Requirements
+>> The application should accept Verilog code as input. It should analyse the code to extract module definitions, signals, and state machines.
+
+☐ 3.2	State Machine Identification
+> ☐ 3.2.1	Description
+>>The application will identify state machines within the parsed Verilog code based on predefined criteria.
+
+> ☐ 3.2.2	Priority
+>>High
+
+>☐ 3.2.3	Pre-Conditions
+>> Parsed Verilog data is available.
+
+>☐ 3.2.4	Post-Conditions
+>> Identified state machines are marked for graph representation.
+
+>☐ 3.2.5	Functional Requirements
+>> The application should use predefined criteria to identify state machines. It should tag identified state machines for further processing.
+
+
 3.	Graph Representation
 ☐
 4.	State Diagram Generation
