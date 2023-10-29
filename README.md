@@ -1,4 +1,8 @@
-<h1><b>Software Requirements Specification for Verilog to state Diagram Converter Web Application</b></h1>
+<div style="text-align: center;">
+        <h1 align="center">Documentation</h1>
+</div>
+    
+<h2><b>Software Requirements Specification for Verilog to state Diagram Converter Web Application</b></h2>
 <!--------------------------------------->
 
 ☐ Version 1.0
@@ -203,41 +207,44 @@
 
 <h2>4. External Interface Requirements</h2>
 
-1.	User Interfaces
-☐
-2.	Hardware Interfaces
-☐
-3.	Software Interfaces
-☐
-4.	Communication Interfaces
 
-Non-Functional Requirements
-☐
-1.	Performance Requirements
-☐
-2.	Security Requirements
-☐
-3.	Availability
-☐
-4.	Maintainability
-☐
-5.	Scalability
-☐
-6.	Usability
-☐
-7.	Legal and Compliance
+☐1.	User Interfaces
 
-Other Requirements
-☐
-1.	Web Server Integration
-☐
-2.	Usability Testing
-☐
-3.	Maintenance Updates
+☐2.	Hardware Interfaces
 
-Appendices
-☐
-1.	Glossary
-☐
-2.	Mockups and Wireframes
+☐3.	Software Interfaces
+
+☐4.	Communication Interfaces
+
+<h2>5. Non-Functional Requirements</h2>
+
+☐1.	Performance Requirements
+
+☐2.	Security Requirements
+
+☐3.	Availability
+
+☐4.	Maintainability
+
+☐5.	Scalability
+
+☐6.	Usability
+
+☐7.	Legal and Compliance
+
+
+<h2>6. Other Requirements </h2>
+
+☐1.	Web Server Integration
+
+☐2.	Usability Testing
+
+☐3.	Maintenance Updates
+
+
+<h2>7. Appendices </h2>
+☐1.	Glossary
+
+☐2.	Mockups and Wireframes
+
 
