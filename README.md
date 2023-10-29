@@ -3,9 +3,8 @@
 </div>
 
 
-<div id="header" align="center">
-  <img src="https://github.com/anasjawed283/verilogvizualizer.github.io/blob/main/readmeimg.png"/>
-</div>
+![webpage landingsection ](readmeimg.png)
+
 
 <h2><b>Software Requirements Specification for Verilog to state Diagram Converter Web Application</b></h2>
 <!--------------------------------------->
