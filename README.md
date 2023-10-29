@@ -3,7 +3,7 @@
 </div>
 
 
-![webpage landingsection ](readmeimg.png)
+![webpage landingsection ](https://github.com/anasjawed283/verilogvizualizer.github.io/blob/68c34d0bf52e9e6a86d1323b7e4cc811b0dc8d63/readmefiles/readmeimg.png)
 
 
 <h2><b>Software Requirements Specification for Verilog to state Diagram Converter Web Application</b></h2>
