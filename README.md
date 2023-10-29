@@ -5,7 +5,11 @@
 
 ☐ Build Date - October 2023
 
+
+
 <h2>1. Introduction</h2>
+
+
 
 ☐ 1.1	Purpose
 > The purpose of this document is to provide a detailed description of the software requirements for the "Verilog to State Diagram Converter Web Application." It outlines the scope of the project, its features, and the necessary constraints.
@@ -22,6 +26,8 @@
 
 ☐ 1.5	References
 >IEEE Std 830-1998, "IEEE Recommended Practice for Software Requirements Specifications."
+
+
 
 <h2>2. Overall Description</h2>
 
@@ -46,6 +52,8 @@
 
 ☐ 2.7	Assumptions and Dependencies
 >The application assumes that users will provide valid Verilog code.
+
+
 
 <h2> 3. System Features</h2>
 
@@ -81,21 +89,120 @@
 >☐ 3.2.5	Functional Requirements
 >> The application should use predefined criteria to identify state machines. It should tag identified state machines for further processing.
 
+☐ 3.3	Graph Representation
+> ☐ 3.3.1	Description
+>>The application will represent identified state machines as graphs, with states as nodes and transitions as edges.
 
-3.	Graph Representation
-☐
-4.	State Diagram Generation
-☐
-5.	Interactive Visualization
-☐
-6.	Display State Details
-☐
-7.	Testing and Validation
-☐
-8.	Documentation and user updates
+> ☐ 3.3.2	Priority
+>>High
 
-External Interface Requirements
-☐
+>☐ 3.3.3	Pre-Conditions
+>> Identified state machines are tagged.
+
+>☐ 3.3.4	Post-Conditions
+>> State machines are represented as graphs.
+
+>☐ 3.3.5	Functional Requirements
+>> The application should use a graph library to create a graphical representation of state machines. States should be represented as nodes, and state transitions as edges in the graph.
+
+
+
+☐ 3.4	State Diagram Generation
+> ☐ 3.4.1	Description
+>>The application will represent identified state machines as graphs, with states as nodes and transitions as edges.
+
+> ☐ 3.4.2	Priority
+>>High
+
+>☐ 3.4.3	Pre-Conditions
+>> Identified state machines are tagged.
+
+>☐ 3.4.4	Post-Conditions
+>> State machines are represented as graphs.
+
+>☐ 3.4.5	Functional Requirements
+>> The application should use a graph library to create a graphical representation of state machines. States should be represented as nodes, and state transitions as edges in the graph.
+
+
+
+☐ 3.5	Interactive Visualization
+
+> ☐ 3.5.1 Description
+>>The application will provide interactive visualization of state diagrams, allowing users to click on nodes and explore details.
+
+> ☐ 3.5.2 Priority
+>>Medium
+
+> ☐ 3.5.3 Pre-Conditions
+>>State diagrams are generated.
+
+> ☐ 3.5.4 Post-Conditions
+>>Interactive state diagrams are available for user interaction.
+
+> ☐ 3.5.5 Functional Requirements
+>>The application should use web technologies (e.g., D3.js) for interactive visualization. Users should be able to click on nodes to explore state details.
+
+
+
+
+☐ 3.6	Display State Details
+
+>☐ 3.6.1 Description
+>>The application will display details of individual states when a user clicks on a node in the state diagram.
+
+>☐ 3.6.2 Priority
+>>Medium
+
+>☐ 3.6.3 Pre-Conditions
+>>Interactive state diagrams are displayed.
+
+>☐ 3.6.4 Post-Conditions
+>>State details are shown in response to user clicks.
+
+>☐ 3.6.5 Functional Requirements
+>>The application should provide a mechanism to display state details upon clicking a state node. State details should include information about state behavior.
+
+
+
+
+☐ 3.7	Testing and Validation
+
+>☐ 3.7.1 Description
+>>The application should include testing and validation features to ensure accurate conversion and visualization.
+
+>☐ 3.7.2 Priority
+>>High
+
+>☐ 3.7.3 Pre-Conditions
+>>Verilog parsing and graph representation are complete.
+
+>☐ 3.7.4 Post-Conditions
+>>Test results and validation reports are available.
+
+>☐ 3.7.5 Functional Requirements
+>>The application should include test cases to validate the conversion and visualization process. Validation reports should be generated and made available to users.
+
+☐ 3.8 Documentation and User Interface
+>☐ 3.8.1 Description
+>>The application should provide user documentation and a user-friendly interface.
+
+>☐ 3.8.2 Priority
+>>Medium
+
+>☐ 3.8.3 Pre-Conditions
+>>The application is operational.
+
+>☐ 3.8.4 Post-Conditions
+>>User documentation and interface are available.
+
+>☐ 3.8.5 Functional Requirements
+>>User documentation should include a user manual with instructions. The user interface should be intuitive and user-friendly.
+
+
+
+
+<h2>4. External Interface Requirements</h2>
+
 1.	User Interfaces
 ☐
 2.	Hardware Interfaces
