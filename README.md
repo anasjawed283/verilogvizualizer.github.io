@@ -5,9 +5,9 @@
 <h2><b>Software Requirements Specification for Verilog to state Diagram Converter Web Application</b></h2>
 <!--------------------------------------->
 
-☐ Version 1.0
-
-☐ Build Date - October 2023
+> [!NOTE]
+> ☐ Version 1.0 <br>
+> ☐ Build Date - October 2023
 
 
 
