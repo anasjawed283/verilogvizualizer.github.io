@@ -3,7 +3,7 @@
 </div>
 
 
-![webpage landingsection](https://github.com/anasjawed283/verilogvizualizer.github.io/blob/main/readmefiles/readmeimg.png?raw=true)
+![image](https://github.com/anasjawed283/verilogvizualizer.github.io/assets/103234658/52bbdc95-80cf-4ebb-9d9c-2b33f0e1dc97)
 
 
 <h2><b>Software Requirements Specification for Verilog to state Diagram Converter Web Application</b></h2>
