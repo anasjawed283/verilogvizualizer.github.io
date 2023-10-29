@@ -6,8 +6,9 @@
 <!--------------------------------------->
 
 > [!NOTE]
-> ☐ Version 1.0 <br>
-> ☐ Build Date - October 2023
+> - [x] Version 1.0 <br>
+> - [ ] Version 1.1 <br>
+> - [ ] Build Date - October 2023
 
 
 
