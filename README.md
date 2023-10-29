@@ -23,21 +23,29 @@
 ☐ 1.5	References
 >IEEE Std 830-1998, "IEEE Recommended Practice for Software Requirements Specifications."
 
-Overall Description
-☐
-1.	Product Perspective
-☐
-2.	Product Functions
-☐
-3.	User Classes and Characteristics
-☐
-4.	Operating Environment
-☐
-5.	Design and Implementation Constraints
-☐
-6.	User Documentation
-☐
-7.	Assumptions and Dependencies
+<h2>2. Overall Description</h2>
+
+☐ 2.1	Product Perspective
+>The "Verilog to State Diagram Converter Web Application" is a standalone tool designed to convert Verilog code into visual state diagrams. It does not interact with other software systems.
+
+☐ 2.2	Product Functions
+>The primary functions of the application include Verilog parsing, state machine identification, graph representation, state diagram generation, interactive visualization, and the ability to display state details.
+
+
+☐ 2.3	User Classes and Characteristics
+>The users of this application include digital hardware designers and engineers. Users are expected to have a basic understanding of Verilog and state machines
+
+☐ 2.4	Operating Environment
+>The application will run as a web-based tool and is compatible with modern web browsers (e.g., Google Chrome, Firefox, and Microsoft Edge).
+
+☐ 2.5	Design and Implementation Constraints
+>The application must be developed using web technologies, ensuring cross-browser compatibility and responsiveness. It should handle Verilog code within defined size limits.
+
+☐ 2.6	User Documentation
+>User documentation will include a user manual with instructions on how to use the application, as well as explanations of the state diagrams.
+
+☐ 2.7	Assumptions and Dependencies
+>The application assumes that users will provide valid Verilog code.
 
 System Features
 ☐
