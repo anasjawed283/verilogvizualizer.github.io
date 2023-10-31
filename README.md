@@ -213,43 +213,63 @@
 <h2>4. External Interface Requirements</h2>
 
 
-☐1.	User Interfaces
+☐ 4.1	User Interfaces
+>The user interface should be web-based and accessible through modern web browsers.
 
-☐2.	Hardware Interfaces
+☐ 4.2	Hardware Interfaces
+>No specific hardware interfaces are required.
 
-☐3.	Software Interfaces
+☐ 4.3	Software Interfaces
+>The application may utilize external libraries for graph visualization (e.g., D3.js) and should be compatible with common web server technologies.
 
-☐4.	Communication Interfaces
+☐ 4.4	Communication Interfaces
+>The application does not require external communication interfaces.
 
 <h2>5. Non-Functional Requirements</h2>
 
-☐1.	Performance Requirements
+☐ 5.1	Performance Requirements
+>The application should convert Verilog code to state diagrams in a reasonable time frame.
+>State diagrams should render smoothly and responsively.
 
-☐2.	Security Requirements
+☐ 5.2	Security Requirements
+>User data and Verilog code should be handled securely.
+>Access to state diagrams should be controlled based on user permissions.
 
-☐3.	Availability
+☐ 5.3	Availability
+>The application should aim for a high level of availability, with minimal downtime for maintenance.
 
-☐4.	Maintainability
+☐ 5.4	Maintainability
+>The codebase should be well-documented and maintainable.
+>Updates and maintenance should be performed with minimal disruption.
 
-☐5.	Scalability
+☐ 5.5	Scalability
+>The application should be able to handle a growing number of users and larger Verilog codebases.
 
-☐6.	Usability
+☐ 5.6	Usability
+>The user interface should be designed for ease of use, and state diagrams should be intuitive to navigate.
 
-☐7.	Legal and Compliance
+☐ 5.7	Legal and Compliance
+>The application should comply with relevant legal and regulatory requirements related to data handling and user privacy.
 
 
 <h2>6. Other Requirements </h2>
 
-☐1.	Web Server Integration
+☐ 6.1	Web Server Integration
+>The application should be integrated with web servers for hosting and access.
 
-☐2.	Usability Testing
+☐ 6.2	Usability Testing
+>Usability testing will be conducted to gather user feedback and make improvements.
 
-☐3.	Maintenance Updates
+☐ 6.3	Maintenance Updates
+>Regular maintenance and updates should be planned to keep the application compatible with new web technologies and Verilog language features.
 
 
 <h2>7. Appendices </h2>
-☐1.	Glossary
 
-☐2.	Mockups and Wireframes
+☐ 7.1	Glossary
+>Verilog: A hardware description language used for modeling digital systems.
+State Machine: A mathematical model used to design and describe the behavior of digital systems.
+
+☐ 7.2	Mockups and Wireframes
 
 
