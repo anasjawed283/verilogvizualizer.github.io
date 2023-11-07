@@ -11,7 +11,7 @@
 
 > [!NOTE]
 > - [x] Version 1.0 <br>
-> - [ ] Version 1.1 <br>
+> - [ ] Version 1.1 (FLASK app to be realesed) <br>
 > - [ ] Build Date - October 2023
 
 
